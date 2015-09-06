@@ -4,7 +4,7 @@ A collection of handy utilities
 
 ## Usage
 
-As it ticks your fancy
+As it tickle your fancy
 
 ## License
 
