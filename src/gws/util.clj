@@ -1,11 +1,6 @@
 (ns gws.util)
 
-(defmacro name-it [exp]
-  "Return the name of a symbol or a "
-  [exp]
-  (:name (meta (resolve exp))))
-
-(defmacro time-func
+(defmacro time-it
   "Get a dict with :val and execution time :msecs of supplied exp"
   [exp]
   `(let [start# (. System nanoTime)
